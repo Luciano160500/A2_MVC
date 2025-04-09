@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RuntimeIdentifiers>win-x64</RuntimeIdentifiers>
+    <ContainerRuntimeIdentifier>win-x64</ContainerRuntimeIdentifier>
+    <EnableSdkContainerDebugging>True</EnableSdkContainerDebugging>
+    <ContainerBaseImage>mcr.microsoft.com/dotnet/aspnet:8.0-nanoserver-1809</ContainerBaseImage>
+    <DockerfileContext>.</DockerfileContext>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\imgs\foto_CV.jpg" />
+    <None Include="wwwroot\imgs\Image20250409104600.jpg" />
+    <None Include="wwwroot\imgs\Image20250409104847.jpg" />
+    <None Include="wwwroot\imgs\Image20250409105001.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\CV\" />
+  </ItemGroup>
+
+</Project>
