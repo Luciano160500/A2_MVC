@@ -3,13 +3,45 @@
 *@
 @{
 	<div class="container">
-		<div class="row d-flex flex-column justify-content-center align-items-center">
-			<div class="col row-cols-12 justify-content-center align-items-center">
-				<img src="~/imgs/harold-thumb.jpg" class="w-100"/>
+		<div class="row d-flex flex-column mb-3">
+			<div class="col d-flex row-cols-12 justify-content-center align-items-center">
+				<img src="~/imgs/harold-thumb.jpg" class="w-25 shadow" />
 			</div>
-			<div class="col row-cols-12 justify-content-center align-items-center text-center">
-			<h3>Anche tu ti senti così? Ci pensiamo noi!</h3>
+			<div class="col row-cols-12  text-center mt-4">
+				<h3>Anche tu ti senti così? Ci pensiamo noi!</h3>
+			</div>
+		</div>
+		<div class="row row-cols-1 mt-5 mb-3">
+			<div class="col">
+				<label for="review">
+					<h5>Scrivi qui il tuo problema (max. 300 caratteri):</h5>
+				</label>
+			</div>
+			<div class="col">
+				<textarea class="form-control" rows="3" maxlength="300"></textarea><br />
+			</div>
+			<div class="d-flex flex-row-reverse">
+				<button type="button" class="btn btn-secondary">Invia</button>
+			</div>
+		</div>
+		<div class="d-flex flex-column justify-content-center align-items-center">
+			<h4>Non sei ancora soddisfatto? E a noi sai che c***o ce frega? Piangitela un pò tu!</h4>
+			<img src="~/imgs/ok-photoaidcom-cropped.jpg" class="w-25"/>
+		</div>
+		<div class="row row-cols-4 mt-5">
+			<div class="col d-flex justify-content-center">
+				<a href="#"><i class="bi bi-telephone">Centralino</i></a>
+			</div>
+			<div class="col d-flex justify-content-center">
+				<a href="#"><i class="bi bi-envelope-at">Email</i></a>
+			</div>
+			<div class="col d-flex justify-content-center">
+				<a href="#"><i class="bi bi-bank">Legali</i></a>
+			</div>
+			<div class="col d-flex justify-content-center">
+				<a href="#"><i class="bi bi-github">GitHub</i></a>
 			</div>
 		</div>
 	</div>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 }
